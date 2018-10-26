@@ -17,13 +17,13 @@ body, p {
   overflow: auto;}
 #nav, #feature, #footer {
   margin: 1%;}
-.column1{
+.article column1{
   width: 100%;
   float: center;
   margin: 1%;
   height: 10em;
   margin-bottom: 1em;
-  background-color:red;}
+  background-color:maroon;}
 
 
 #nav, #footer {
