@@ -1,7 +1,3 @@
-body {
-   background-image:url("http://flags.fmcdn.net/data/flags/w580/so.png");
-
-}
 
 * {
 	font-family: 'CMUSerifRoman'; 
@@ -13,7 +9,7 @@ body {
   width: 90%;
   margin: 0 auto;
   background-color: rgba(46, 3, 3, 0);
-  background-image: url("https://d2vvqscadf4c1f.cloudfront.net/x2ECMygSi6O0PZ81Vk2A_Doge%20Pattern%20Funny%20Meme%20Wallpaper.jpg");
+   background-image:url("http://flags.fmcdn.net/data/flags/w580/so.png");
   background-size:contain;
   background-position: center;
   background-repeat:;}
