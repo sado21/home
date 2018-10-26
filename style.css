@@ -23,17 +23,17 @@ body {
   margin: 1%;
   height: 10em;
   margin-bottom: 1em;
-  background-color: rgba(255, 0, 81, 0.45);}
+  background-color:red;}
 
 
 #nav, #footer {
-  background-color: #ff6565;
+  background-color: pink;
   padding: 0.5em 0;}
 
 #feature {
   height: 10em;
   margin-bottom: 1em;
-  background-color: #efefef;}
+  background-color: yellow;}
 #feature {
   background-color: rgba(255, 255, 255, 0.49);
   background-image: url("https://st2.depositphotos.com/2757500/8319/v/950/depositphotos_83193754-stock-illustration-baby-shop-logo.jpg");
