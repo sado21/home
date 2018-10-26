@@ -5,7 +5,7 @@
    font-style: normal; 
 	text-align: center;}
 
-body {
+body, p {
   width: 90%;
   margin: 0 auto;
   background-color: rgba(46, 3, 3, 0);
@@ -17,7 +17,7 @@ body {
   overflow: auto;}
 #nav, #feature, #footer {
   margin: 1%;}
-.column1 {
+.column1{
   width: 100%;
   float: center;
   margin: 1%;
