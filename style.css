@@ -1,0 +1,82 @@
+body {
+   background-image:url("http://flags.fmcdn.net/data/flags/w580/so.png");
+
+}
+
+* {
+	font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; 
+	text-align: center;}
+
+body {
+		width: 90%;
+		margin: 0 auto;}
+
+#content {
+	overflow: auto;}
+
+#nav, #feature, #footer {
+		margin: 1%;}
+hi {
+  color:#00FF00;
+}
+
+.column1,
+
+.column2, .column3 {
+	  	width: 31.3%;
+		float: left;
+		margin: 1%;}
+
+.column3 {
+	margin-right: 0%;
+         }
+
+li {
+	display: inline;
+	padding: 0.5em;}
+			
+#nav, #footer {
+		background-color: #efefef;
+		padding: 0.5em 0;}
+			
+#feature, .article {
+		height: 10em;
+		margin-bottom: 1em;
+		background-color: #efefef;}
+
+#nav  {background-color: gray;}
+
+#content {background-color: rgb(255, 255);}
+
+#footer {background-color: gray;}
+
+.column1{background-color: orange}
+
+.column2{background-color: pink}
+
+.column3{background-color:  orange}
+
+#feature {
+   background-color: blue;
+   background-image: url("https://st2.depositphotos.com/2757500/8319/v/950/depositphotos_83193754-stock-illustration-baby-shop-logo.jpg ");
+   background-size:contain;
+   background-position: center;
+   background-repeat:no-repeat;}
+
+p, h2, a { 
+   font-family: 'DancingScriptRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+   font-size: 200%;
+}
+
+
+h1 {
+  text-align:center;
+  color:red;
+  font-family:'DancingScriptRegular';
+  font-size:400%;
+  
+}
