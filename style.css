@@ -1,9 +1,9 @@
-
+-
 * {
-	font-family: 'CMUSerifRoman'; 
-   font-weight: normal; 
-   font-style: normal; 
-	text-align: center;}
+  font-family: 'CMUSerifRoman'; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align: center;}
 
 body {
   padding: 0.5em;
@@ -12,7 +12,11 @@ body {
   background-image:url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg");
   background-size:contain;
   background-position: center;
-  background-repeat:;}
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
 
 #content {
   overflow: auto;
@@ -27,15 +31,22 @@ body {
   margin-bottom: 1em;
   background-color:white;
   padding: 0.5em;}
-
+main {
+  flex: auto;
+}
 
 h1 {
   color:white;
 }
 
 #nav, #footer {
+  
   background-color:pink;
-  padding: 0.5em 0;}
+  padding: 0.5em 12px;
+  margin: 0.5px;
+  padding: 10px 20px
+}
+  
 
 #nav li {display:inline;}
 
@@ -43,16 +54,16 @@ h1 {
   height: 10em;
   margin-bottom: 1em;
   background-color:green;
-  background-image: url("https://images.pexels.com/photos/754082/pexels-photo-754082.jpeg?auto=compress&cs=tinysrgb&h=350");
+  background-image: url("");
   background-size:contain;
   background-position: center;
   background-repeat:no-repeat;}
 
 p, h1,a { 
-   font-family: 'DancingScriptRegular'; 
-   font-weight: normal; 
-   font-style: normal; 
-   font-size: 200%;
+  font-family: 'DancingScriptRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  font-size: 200%;
 
 
 
