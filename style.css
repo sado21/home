@@ -1,8 +1,7 @@
--
 * {
-  font-family: 'CMUSerifRoman'; 
-  font-weight: normal; 
-  font-style: normal; 
+   font-family: 'CMUSerifRoman'; 
+   font-weight: normal; 
+   font-style: normal; ; 
   text-align: center;}
 
 body {
@@ -53,21 +52,10 @@ h1 {
   padding: 1em;
 }
 
-#feature {
-  height: 10em;
-  margin-bottom: 1em;
-  background-color:green;
-  background-image: url("");
-  background-size:contain;
-  background-position: center;
-  background-repeat:no-repeat;}
 
 p, h1,a { 
    font-family: 'CMUSerifRoman'; 
    font-weight: normal; 
-   font-style: normal; ; 
+   font-style: normal; 
   font-size: 200%;
 }
-
-
-
