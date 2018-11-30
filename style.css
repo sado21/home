@@ -56,9 +56,9 @@ p, h1, a {
   font-size : 200%;
 }
 }
-style {
+element.style {
+    background-color: pink;
   padding: 25px 50px 75px 100px;
-  background-color: #d1f8d1;
 }
 
 
