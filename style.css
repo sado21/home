@@ -1,101 +1,185 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+} 
 body {
-  padding : 0.5em;
-  width : 90%;
-  margin : 0 auto;
-  background-image : url("http://www.malaysia-somalia.com/img/somalia.jpg");
-  background-size : contain;
-  background-position : center;
-  background-repeat : no-repeat;
-  background-attachment : fixed;
-  background-size : cover;
+  background-image: url(https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150306145109-beautiful-japan-kawachi-wisteria.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 1/1) {
+  body {
+    width: 80%;
+  }
+  nav, section, footer {
+    border-radius: 20px;
+    margin: 5%;
+  }
+  article {
+    border-radius: 20px;
+    margin: 2%;
+  }
+}
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 1/1) {
+  nav, section, article, footer  {
+  margin: 20px 2px;
+  }
+}
+header {
+  text-align: center;
+  vertical-align: bottom;
+} 
+nav {
+  background-color: rgba(0,45,101,0.7);
+  font-size: 120%;
+  overflow: hidden;
+}
+main {
+  margin-top: 50px;
+}
+section {
+  min-height: 10em;
+  font-size: 120%;
+  background: rgba(150,153,156,0.7);
+  overflow:auto;
+  padding: 35px 50px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+article {
+  font-size: 80% !important;
+  background: rgba(225,225,225,0.9);
+  padding: 20px;
+}
+footer {
+  padding: 35px 50px;
+  background: rgba(225,225,225,0.7);
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #333;
-    overflow: hidden;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 50px;
-    text-decoration: none;
-    font-size: 17px;
+/*----------UNIVERSAL TEXT & LINK ELEMENT MODIFIERS----------*/
+h1, h2 {
+  font-family: 'ArchitectsDaughterRegular';
+  font-weight: bold;
 }
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+h1 {
+  margin-top: 75px;
+  text-shadow: 0 0 5px white;
 }
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color:#D9ACFC;
-    color: white;
+h3 {
+  font-family: 'ArchitectsDaughterRegular';
+  margin-top: 0px;
 }
-
+h4 {
+  margin: 0px;
+  padding: 20px 0px 0px 20px;
+}
+br {
+  padding: 1px;
+}
 p{
+  margin: 0px;
+}
+a:link {
+  color: darkblue;
+}
+a:visited {
+  color: darkgreen;
+}
+
+
+/*----------ALL PAGES ELEMENT MODIFIERS----------*/
+nav ul {
+  padding-right: 40px;
+  margin: 0px;
+}
+nav li{  
+  display: inline;
+}
+nav a{
+  display: inline-block;
+  font-family: 'ArchitectsDaughterRegular';
+  padding: 20px 14px;
+}
+nav a:hover {
+  background-color: rgba(0,27,61,0.7);
+}
+nav a:link{
   color: white;
- font-size: 30px;
-  
 }
-h4{
-  color: white;
- font-size: 20px;
-  
+nav a:visited{
+  color: limegreen;
 }
-
-
-a{
-  font-family: 'JelleeRoman'; 
-  font-weight: normal; 
-  font-style: normal; 
-  text-align:center;
-  font-size: 90px;
-  color: white;
- 
+footer a{
+  font-size: 140%;
 }
-
-h1{
-  font-family: 'AlexBrushRegular'; 
-  font-weight: normal; 
-  font-style: normal; 
-  text-align:center;
-  font-size: 80px;
-  color: white;
-  text-shadow: 5px 2px #676767;
+blockquote {
+  margin: 20px 80px;
+}
+form {
+  margin: 20px 10% 20px 20px;
+  float: left;
+}
+td {
+  padding: 20px 10px;
+  vertical-align: top;
 }
 
-h2{
-    font-family: 'JelleeRoman'; 
-  font-weight: normal; 
-  font-style: normal; 
-  text-align:center;
-  font-size: 80px;
-  color: white;  
+
+
+
+/*----------INDIVIDUAL PAGE CLASS/ID MODIFIERS----------*/
+
+
+/*-------artifacts-------*/
+.artifact {
+  height: 180px;
 }
-      h2{
-       	background-color: black;
-	padding: 1px 50px;
-        opacity: 0.7;
-        position: relative;
-        top: 100px;
-        text-align:center  }
-  h3{
-       	background-color: black;
-	padding: 1px 50px;
-        opacity: 0.7;
-        text-align:center;
-   
-      }
+img.align-left {
+  float: left;
+  clear: left;
+  margin-right: 20px;
+}
+/*-----------------------*/
 
 
-#nav{
-background-color: white;
-padding: 1px 5x;
-opacity: 0.5;
-   
+/*--------modules--------*/
+.module p {
+  margin: 0 0 0 2em !important;
+}
+.module h3 {
+  margin-bottom: 0;
+}
+#fakeLink h3{
+  color: darkgreen;
+}
+/*-----------------------*/
+
+
+/*--------contact--------*/
+.error {
+  color: darkred;
+}
+.error img{
+  vertical-align: bottom;
+}
+#warning {
+  margin: 10%;
+  padding-left: 10%;
+  width: 50%;
+  color: darkred;
+}
+/*-----------------------*/
+
+
+/*-------interests-------*/
+#youtube {
+  width: 416px;
+  height: 234px;
+  border-style: none;
+}
+/*-----------------------*/
