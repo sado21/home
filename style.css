@@ -1,185 +1,62 @@
-* {
-  font-family: Arial, Verdana, sans-serif;
-} 
 body {
-  background-image: url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150306145109-beautiful-japan-kawachi-wisteria.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
-  background-size: contain;
-  margin: 0 auto;
+  padding : 0.5em;
+  width : 90%;
+  margin : 0 auto;
+  background-image : url("https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg");
+  background-size : contain;
+  background-position : center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-size : cover;
 }
-/* Minimum aspect ratio */
-@media (min-aspect-ratio: 1/1) {
-  body {
-    width: 80%;
-  }
-  nav, section, footer {
-    border-radius: 20px;
-    margin: 5%;
-  }
-  article {
-    border-radius: 20px;
-    margin: 2%;
-  }
+#content {
+  overflow : auto;
+  color : green;
 }
-/* Maximum aspect ratio */
-@media (max-aspect-ratio: 1/1) {
-  nav, section, article, footer  {
-  margin: 20px 2px;
-  }
+#nav, #feature, #footer {
+  margin : 3%;
 }
-header {
-  text-align: center;
-  vertical-align: bottom;
-} 
-nav {
-  background-color: rgba(0,45,101,0.7);
-  font-size: 120%;
-  overflow: hidden;
+.column1 {
+  width : 100%;
+  margin : 1%;
+  margin-bottom : 1em;
+  background-color : wheat;
+  padding : 0.5em;
 }
 main {
-  margin-top: 50px;
-}
-section {
-  min-height: 10em;
-  font-size: 120%;
-  background: rgba(150,153,156,0.7);
-  overflow:auto;
-  padding: 35px 50px;
-  background-position: left;
-  background-repeat: no-repeat;
-}
-article {
-  font-size: 80% !important;
-  background: rgba(225,225,225,0.9);
-  padding: 20px;
-}
-footer {
-  padding: 35px 50px;
-  background: rgba(225,225,225,0.7);
-}
-
-
-/*----------UNIVERSAL TEXT & LINK ELEMENT MODIFIERS----------*/
-h1, h2 {
-  font-family: 'ArchitectsDaughterRegular';
-  font-weight: bold;
+  flex : auto;
 }
 h1 {
-  margin-top: 75px;
-  text-shadow: 0 0 5px white;
+  color : white;
 }
-h3 {
-  font-family: 'ArchitectsDaughterRegular';
-  margin-top: 0px;
+#nav, #footer {
+  background-color : pink;
+  padding : 0.5em 12px;
+  margin : 0.5px;
+  padding : 10px 20px;
 }
-h4 {
-  margin: 0px;
-  padding: 20px 0px 0px 20px;
+.image {
+  margin-left : 10%;
+  margin-right : 10%;
+  text-align : center;
+  border-radius : 50%;
 }
-br {
-  padding: 1px;
+.clear {
+  clear : both;
+}
+#nav li {
+  display : inline;
+  padding : 1em;
 }
 p{
-  margin: 0px;
+  background-color: antiquewhite;
 }
-a:link {
-  color: darkblue;
+h2{
+  background-color: khaki
 }
-a:visited {
-  color: darkgreen;
+p, h1, a {
+  font-family : 'CMUSerifRoman';
+  font-weight : normal;
+  font-style : normal;
+  font-size : 200%;
 }
-
-
-/*----------ALL PAGES ELEMENT MODIFIERS----------*/
-nav ul {
-  padding-right: 40px;
-  margin: 0px;
-}
-nav li{  
-  display: inline;
-}
-nav a{
-  display: inline-block;
-  font-family: 'ArchitectsDaughterRegular';
-  padding: 20px 14px;
-}
-nav a:hover {
-  background-color: rgba(0,27,61,0.7);
-}
-nav a:link{
-  color: white;
-}
-nav a:visited{
-  color: limegreen;
-}
-footer a{
-  font-size: 140%;
-}
-blockquote {
-  margin: 20px 80px;
-}
-form {
-  margin: 20px 10% 20px 20px;
-  float: left;
-}
-td {
-  padding: 20px 10px;
-  vertical-align: top;
-}
-
-
-
-
-/*----------INDIVIDUAL PAGE CLASS/ID MODIFIERS----------*/
-
-
-/*-------artifacts-------*/
-.artifact {
-  height: 180px;
-}
-img.align-left {
-  float: left;
-  clear: left;
-  margin-right: 20px;
-}
-/*-----------------------*/
-
-
-/*--------modules--------*/
-.module p {
-  margin: 0 0 0 2em !important;
-}
-.module h3 {
-  margin-bottom: 0;
-}
-#fakeLink h3{
-  color: darkgreen;
-}
-/*-----------------------*/
-
-
-/*--------contact--------*/
-.error {
-  color: darkred;
-}
-.error img{
-  vertical-align: bottom;
-}
-#warning {
-  margin: 10%;
-  padding-left: 10%;
-  width: 50%;
-  color: darkred;
-}
-/*-----------------------*/
-
-
-/*-------interests-------*/
-#youtube {
-  width: 416px;
-  height: 234px;
-  border-style: none;
-}
-/*-----------------------*/
