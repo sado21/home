@@ -55,7 +55,11 @@ p, h1, a {
   font-style : normal;
   font-size : 200%;
 }
-
+}
+p {
+  padding: 25px 50px 75px 100px;
+  background-color: #d1f8d1
+}
 
 
 
