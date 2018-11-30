@@ -1,55 +1,101 @@
-
 body {
-	font-family: Arial, sans-serif;
-	width: 100%;
-	margin: 0 auto;
-	background-color: whitesmoke;
-background-image : url("http://www.aaxiscommerce.com/wp-content/uploads/2016/07/homepage-background-1920x72.jpg");
-background-size : contain;
-background-position : center;
-background-repeat : no-repeat;
-background-attachment : fixed;
-background-size : cover;}
-main {
-	overflow: auto;}
-h1, h3 { 
-	text-align: center;
-	padding: 5px;  
-	margin-right:auto; 
-	margin-left:auto;
-   	font-family: 'unique'; 
-   	font-weight: bold; 
-  	font-style: normal; }
-			
-nav, section, footer {margin: 1%;}
-			
-li {
-	text-align: center;
-	display: inline;
-	padding: 0.5em;}
-nav {
-	font-family: Impact, Charcoal, sans-serif; 
-	text-align: center;
-	background-color: skyblue;
-	padding: 0.5em 0;}
-
-img  {
-    float: right;
+  padding : 0.5em;
+  width : 90%;
+  margin : 0 auto;
+  background-image : url("http://www.malaysia-somalia.com/img/somalia.jpg");
+  background-size : contain;
+  background-position : center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-size : cover;
 }
 
-iframe style {
-	float:left;
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
 }
 
-#footer {
-   clear: both;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
 }
-footer {
-	background-color: seashell;
-	text-align: center;
-	padding: 0.5em 0;}
 
-section{margin-bottom: 1em;}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
-section {
- background-color: papayawhip;}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color:#D9ACFC;
+    color: white;
+}
+
+p{
+  color: white;
+ font-size: 30px;
+  
+}
+h4{
+  color: white;
+ font-size: 20px;
+  
+}
+
+
+a{
+  font-family: 'JelleeRoman'; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align:center;
+  font-size: 90px;
+  color: white;
+ 
+}
+
+h1{
+  font-family: 'AlexBrushRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align:center;
+  font-size: 80px;
+  color: white;
+  text-shadow: 5px 2px #676767;
+}
+
+h2{
+    font-family: 'JelleeRoman'; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-align:center;
+  font-size: 80px;
+  color: white;  
+}
+      h2{
+       	background-color: black;
+	padding: 1px 50px;
+        opacity: 0.7;
+        position: relative;
+        top: 100px;
+        text-align:center  }
+  h3{
+       	background-color: black;
+	padding: 1px 50px;
+        opacity: 0.7;
+        text-align:center;
+   
+      }
+
+
+#nav{
+background-color: white;
+padding: 1px 5x;
+opacity: 0.5;
+   
