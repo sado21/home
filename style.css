@@ -9,6 +9,7 @@ body {
   background-attachment : fixed;
   background-size : cover;
 }
+}
 #content {
   overflow : auto;
   color : green;
@@ -47,19 +48,12 @@ h1 {
 #nav li {
   display : inline;
   padding : 1em;
-  
 }
-a{ color: maroon;}
 p, h1, a {
   font-family : 'CMUSerifRoman';
   font-weight : normal;
   font-style : normal;
   font-size : 200%;
-  
-}
-
-p{
-  background-color: pink;
 }
 
 
