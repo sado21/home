@@ -2,7 +2,7 @@
   font-family: Arial, Verdana, sans-serif;
 } 
 body {
-  background-image: url(https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150306145109-beautiful-japan-kawachi-wisteria.jpg);
+  background-image: url("https://dynaimage.cdn.cnn.com/cnn/q_auto,w_900,c_fill,g_auto,h_506,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F150306145109-beautiful-japan-kawachi-wisteria.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
